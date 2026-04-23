@@ -104,7 +104,7 @@ approvedSvIdentities:
         weight: 10_0000
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOxCYWSBB4hDz7O1XxJ3xswKXxJcQqsgyzBTbWjkwa+ILYXy8T2vtVMoZ+tC/Ykdp3MyFwcMIP1kzcDKCSp0qow==
-    rewardWeightBps: 14_0000
+    rewardWeightBps: 24_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f44bc7589a682afe95a21d::12208fdbf6156f607c104512ce12fcb382ce3ec3116e7aa5ddb02b7fce237efd4843" # MPCH
         weight: 1_0000
@@ -114,6 +114,8 @@ approvedSvIdentities:
         weight: "50000"
       - beneficiary: "Tharimmune-ghost-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Tharimmune, Inc. CIP-0102 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 4_0000
+      - beneficiary: "Visa-Escrow-1::1220804f8856b9ec277d69059ce8ea31063dbec116b0c398c2ff3d191b0f227ef04b" # Visa CIP-0109 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 10_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/I3om2cE1ccDhYdy3wwKys3afBskv/OsRe8Jr52RywZOke+TfNbqQYcltATswgDi3HPdJUG3IEgo4Fh2vfl+g==
     rewardWeightBps: 10_0000
@@ -128,7 +130,7 @@ approvedSvIdentities:
     rewardWeightBps: 10_5750
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkWEYEGZXazTVemWdA9IEjV7LryooS6OsypdNi3rpfLDgGffwZJhjGcA1wWiOpxQkbM8B0VkfNLs24OCLAf1HA==
-    rewardWeightBps: 16_0500
+    rewardWeightBps: 24_0500
     extraBeneficiaries:
       - beneficiary: "bsv-ghost-1::122097db9a94a9682322b80231ee2f5597df9f04b6c49bdc1724157a1de3e15fbd0f" # Bosphorus SV (BSV)  CIP-0093 # escrow party_id hosted on 5nghost-testnet-1
         weight: 6_0000
@@ -136,6 +138,8 @@ approvedSvIdentities:
         weight: 5_0000
       - beneficiary: "chainsafe-ghost-1::122097db9a94a9682322b80231ee2f5597df9f04b6c49bdc1724157a1de3e15fbd0f" # ChainSafe  CIP-0086 # escrow party_id hosted on 5nghost-testnet-1
         weight: 2_0000
+      - beneficiary: "further-ghost-1::122097db9a94a9682322b80231ee2f5597df9f04b6c49bdc1724157a1de3e15fbd0f" # Further Asset Management (Further)  CIP-0113 # escrow party_id hosted on 5nghost-testnet-1
+        weight: 8_0000
   - name: Proof-Group-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEX1G0Gc5kYqisXQk0GZpygZ7cOmo5AHh0+87ZVnwPUXdA9msdGm/XCCTfFz4g7x4QfhgXHEARGSTqvIq5PbUqTQ==
     rewardWeightBps: 1_2500
